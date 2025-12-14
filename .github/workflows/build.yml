@@ -31,8 +31,7 @@ jobs:
           - aarch64_generic
           
         sdk:
-          - 22.03.7
-          - SNAPSHOT
+          - 21.02
 
     steps:
       - uses: actions/checkout@v4
